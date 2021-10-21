@@ -1,0 +1,111 @@
+{
+  "records": [
+    {
+      "id": 1,
+      "firstname": "jsonserv",
+      "lastname": "typicode",
+      "email": "db@gmail.com",
+      "pincode": 12345,
+      "contact": 1234567890,
+      "address": "Solapur"
+    },
+    {
+      "id": 2,
+      "firstname": "Kishor",
+      "lastname": "Chavan",
+      "email": "chavankishor8143@gmail.com",
+      "pincode": 413002,
+      "contact": 9168910398,
+      "address": "solapur"
+    },
+    {
+      "id": 3,
+      "firstname": "ABC",
+      "lastname": "DEF",
+      "email": "atoz@gmail.com",
+      "pincode": 123,
+      "contact": 12345,
+      "address": "Nagpur"
+    },
+    {
+      "id": 4,
+      "firstname": "Darshan",
+      "lastname": "Inde",
+      "email": "nagpur@gmail.com",
+      "pincode": 123,
+      "contact": 9876543210,
+      "address": "balives"
+    },
+    {
+      "id": 7,
+      "firstname": "pramod",
+      "lastname": "tonpe",
+      "email": "utube@gmail.com",
+      "pincode": 123,
+      "contact": 12345,
+      "address": "kanke shahir wasti"
+    },
+    {
+      "id": 8,
+      "firstname": "Kishor",
+      "lastname": "tonpe",
+      "email": "chavankishor8143@gmail.com",
+      "pincode": 123,
+      "contact": 9876543210,
+      "address": "solapur"
+    },
+    {
+      "id": 9,
+      "firstname": "HalcyonMinds",
+      "lastname": "TechLLP",
+      "email": "halcyonmindstechllp@gmail.com",
+      "pincode": 413131,
+      "contact": 9876543211,
+      "address": "Prestige Point,Warje"
+    }
+  ],
+  "signupusers": [
+    {
+      "fullname": "kishor chavan",
+      "mobile": 9158623326,
+      "email": "chavankishor8143@gmail.com",
+      "password": "kishor123",
+      "id": 1
+    },
+    {
+      "fullname": "Darshan Inde",
+      "mobile": 9168910398,
+      "email": "inde@gmail.com",
+      "password": "darshan123",
+      "id": 2
+    },
+    {
+      "fullname": "Pramod Tonpe",
+      "mobile": 8446965638,
+      "email": "tonpe@gmail.com",
+      "password": "pramod123",
+      "id": 3
+    },
+    {
+      "fullname": "vidyachavan",
+      "mobile": 9158623326,
+      "email": "vids@gmail.com",
+      "password": "123vid",
+      "id": 4
+    },
+    {
+      "fullname": "First",
+      "mobile": 9158623326,
+      "email": "first@gmaill.com",
+      "password": "123",
+      "id": 5
+    },
+    {
+      "fullname": "Omkar",
+      "mobile": 7498965876,
+      "email": "omkaranekar341@gmail.com",
+      "password": "omkar123",
+      "id": 6
+    }
+  ]
+}

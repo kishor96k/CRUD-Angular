@@ -1,0 +1,36 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="text-center">
+                    <h1>LogIn Page</h1>
+                    <h6>Please Enter Id & Password</h6>
+                </div>
+
+                <form [formGroup]="loginForm" (ngSubmit)="loginData()">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" formControlName="email" id="email" placeholder="Enter Ur EmailID" required class="form-control">
+                        <br>
+                        <span class="text-danger" *ngIf="loginForm.controls['email'].dirty && loginForm.hasError('required','email')">
+                            Email is required
+                        </span>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" formControlName="password" id="password" required placeholder="Enter Ur Password" class="form-control">
+                        <br>
+                        <span class="text-danger" *ngIf="loginForm.controls['password'].dirty && loginForm.hasError('required','password')">
+                            Password is required
+                        </span>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-primary" type="submit" [disabled]="!loginForm.valid">Log-In</button>
+                    </div>
+                    <span>New User?...</span><a routerLink="/signup" style="cursor: pointer;color: chartreuse;">SignUp</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
